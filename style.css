@@ -1,0 +1,234 @@
+nav {
+    background-color:#7c5295;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    padding:5px;
+} 
+
+nav a {
+    text-decoration:none;
+    margin:5px;
+    margin-bottom:2px;
+    color:white;
+    background-color:white;
+    padding:10px;
+    color:#39004d;
+    background-size:cover;
+    transition:transform 0.5s ease;
+}
+
+nav a:hover {
+    transform:scale(1.2);
+}
+
+header {
+    background-image:url("https://static2.makeuseofimages.com/wp-content/uploads/2019/03/whats-coding.jpg?q=50&fit=contain&w=750&h=375&dpr=1.5");
+    background-size:cover;
+    width:100%;
+    height:100vh;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-bottom:0px;
+    flex-direction:column;
+    position:relative;
+}
+
+header * {
+    position:relative;
+    z-index:1;
+}
+
+header h1 {
+    font-size:40px;
+    margin-bottom:5px;
+    margin-top:0px;
+}
+
+header p {
+    margin:0;
+    font-size:25px;
+}
+
+header::after {
+    content:"";
+    background-color:#000;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    position:absolute;
+    opacity:0.7;
+}
+
+section {
+    text-align:center;
+    padding:20px;
+}
+
+#about {
+    text-align:center;
+    background-color:#7c5295;
+    color:white;
+    padding:27px;
+    height:250px;
+}
+
+#about p {
+    padding-bottom:-25px;
+    margin-top:20px;
+}
+
+#about a {
+    margin:0;
+    color:white;
+    text-decoration:underline;
+}
+
+#projects #project-container{
+    display:flex;
+    justify-content:center;
+    flex-wrap:wrap;
+    align-items:center;
+}
+
+
+
+#contact {
+    background-color:white;
+    height:275px;
+}
+#contact .fa-github-square {
+    font-size:50px;
+    margin-right:10px;
+    text-decoration:none;
+    margin-right:-10px;
+    transition:transform 0.3s ease;
+}
+
+#contact #icon1git {
+    position:relative;
+} 
+
+#contact .fa-github-square:hover {
+    transform:scale(1.2);
+}
+
+#contact #icon1git:hover #description {
+    visibility:visible;
+    opacity:1.5;
+}
+
+#contact p {
+    font-size:30px;
+    margin-bottom:10px;
+    margin-top:10px;
+}
+
+#contact #icon2codecamp:hover #freecodecamp_description {
+    visibility:visible;
+    opacity:1.5;
+}
+
+#contact #freecodecamp_description {
+    position:absolute;
+    bottom:0;
+    top:0;
+    left:0;
+    right:0;
+    visibility:hidden;
+    opacity:0;
+    margin-top:52px;
+    font-size:25px;
+    transition: opacity 0.5s, visibility 0.7s;
+
+}
+
+#contact #icon2codecamp {
+    position:relative;
+}
+
+#contact .fa-free-code-camp {
+    font-size:50px;
+    margin-left:10px;
+    transition:transform 0.3s ease;
+}
+
+#contact #description {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    visibility:hidden;
+    opacity:0;
+    margin-top:52px;
+    font-size:25px;
+    transition: opacity 0.5s, visibility 0.7s;
+}
+
+#contact .fa-free-code-camp:hover {
+    transform:scale(1.2);
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0px;
+    background-color:#EEE0CB;
+}
+
+#projects {
+  background-color:white;
+  color:black;
+  max-height:100%;
+}
+#projects a {
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+}
+
+
+#projects #project-container a img {
+    transition:transform 0.5s ease;
+    margin:10px;
+    border:2px solid black;
+    max-width:100%;
+    margin-bottom:-7px;
+}
+
+.project {
+    margin:10px;
+    background-color:indigo;
+    color:white;
+    max-width:500px;
+}
+
+@media only screen and (max-width:750px) {
+    header {
+        width:100%;
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+}
+
+
+
+#projects img:hover {
+    transform: scale(1.1);
+}
+
+
+footer .fa-heart {
+    color:red;
+} 
+
+footer {
+    background-color:#7c5295;
+    color:#eee;
+    text-align:center;
+    padding:5px;
+}
+

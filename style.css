@@ -143,3 +143,92 @@ section {
     margin-top:52px;
     font-size:20px;
     transition: opacity
+
+}
+
+
+#contact #icon2codecamp {
+    position:relative;
+}
+
+#contact .fa-free-code-camp {
+    font-size:50px;
+    margin-left:10px;
+    transition:transform 0.3s ease;
+}
+
+#contact #description {
+    position:absolute;
+    top:0;
+    bottom:0;
+    left:0;
+    right:0;
+    visibility:hidden;
+    opacity:0;
+    margin-top:52px;
+    font-size:25px;
+    transition: opacity 0.5s, visibility 0.7s;
+}
+
+#contact .fa-free-code-camp:hover {
+    transform:scale(1.2);
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin:0px;
+    background-color:#EEE0CB;
+}
+
+#projects {
+  background-color:white;
+  color:black;
+  max-height:100%;
+}
+#projects a {
+    text-decoration:none;
+    font-size:20px;
+    color:white;
+}
+
+
+#projects #project-container a img {
+    transition:transform 0.5s ease;
+    margin:10px;
+    border:2px solid black;
+    max-width:100%;
+    margin-bottom:-7px;
+}
+
+.project {
+    margin:10px;
+    background-color:indigo;
+    color:white;
+    max-width:500px;
+}
+
+@media only screen and (max-width:750px) {
+    header {
+        width:100%;
+        background-size:cover;
+        background-repeat:no-repeat;
+    }
+}
+
+
+
+#projects img:hover {
+    transform: scale(1.1);
+}
+
+
+footer .fa-heart {
+    color:red;
+} 
+
+footer {
+    background-color:#7c5295;
+    color:#eee;
+    text-align:center;
+    padding:5px;
+}

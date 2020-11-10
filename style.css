@@ -221,6 +221,12 @@ body {
     transform: scale(1.1);
 }
 
+@media only screen and (max-width:480px) {
+    .project {
+        margin:5px;
+        color:white;
+    }
+}
 
 footer .fa-heart {
     color:red;

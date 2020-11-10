@@ -205,6 +205,7 @@ body {
     background-color:indigo;
     color:white;
     max-width:500px;
+    padding:10px;
 }
 
 @media only screen and (max-width:750px) {
@@ -225,6 +226,8 @@ body {
     .project {
         margin:5px;
         color:white;
+        padding-left:7px;
+        padding-right:11px;
     }
 }
 

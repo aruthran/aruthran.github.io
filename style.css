@@ -205,7 +205,7 @@ body {
     background-color:indigo;
     color:white;
     max-width:500px;
-    padding:10px;
+    padding:5px;
 }
 
 @media only screen and (max-width:750px) {

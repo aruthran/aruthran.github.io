@@ -225,8 +225,8 @@ body {
 @media only screen and (max-width:480px) {
     .project {
         color:white;
-        padding-left:5px;
-        padding-right:12px;
+        padding-left:4px;
+        padding-right:27px;
     }
 }
 

@@ -183,12 +183,18 @@ body {
 #projects {
   background-color:white;
   color:black;
+  box-shadow:5px 5px;
   max-height:100%;
 }
+
 #projects a {
     text-decoration:none;
     font-size:20px;
     color:white;
+}
+
+html , body {
+    scroll-behavior:smooth;
 }
 
 
